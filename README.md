@@ -21,7 +21,6 @@ cd server
 mv .env.example .env
 cd ..
 ```
-
 Now install the dependencies
 ```shell
 cd server
