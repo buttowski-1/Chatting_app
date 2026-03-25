@@ -43,5 +43,4 @@ cd server
 npm start
 ```
 Done! Now open localhost:3000 in your browser.
-HEAD
-=======
+
