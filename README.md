@@ -13,34 +13,34 @@ cd chat-app-react-nodejs
 Now rename env files from .env.example to .env
 ```shell
 cd public
-mv .env.example .env
+
 cd ..
 cd server
-mv .env.example .env
+
 cd ..
 ```
 
 Now install the dependencies
 ```shell
 cd server
-
+npm install
 cd ..
 cd public
-
+npm install
 ```
 We are almost done, Now just start the development server.
 
 For Frontend.
 ```shell
 cd public
-yarn start
+npm start
 ```
 For Backend.
 
 Open another terminal in folder, Also make sure mongodb is running in background.
 ```shell
 cd server
-yarn start
+npm start
 ```
 Done! Now open localhost:3000 in your browser.
 HEAD
